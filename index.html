@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0" />
+    <title>DG Wed</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img src="img/Melo-357x250.jpg" alt="">
+      
+      </div>
+      <h1>Gomez Alexander</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio" class="inicio">Inicio</a></li>
+          <li><a href="#Sobre mi" class="sobre mi">Sobre mi</a></li>
+          <li><a href="#contactos" class="contactos">Contactos</a></li>
+          <li><a href="#proyecto" class="proyecto">Proyecto</a></li>
+          <li><a href="#mapa" class="mapa">Mapa</a></li>
+        </ul>
+      </nav> 
+    </header>
+    <section class="inicio2" id="inicio">
+      <div class="container">
+        <h2>Welcome to my page</h2>
+        <p>This is a short description over me and my interest</p>
+      </div>
+    </section>
+    <section id="Sobre-mi">
+      <div class="container">
+        <h2>Sobre mi:</h2>  
+        <p>
+        My name is Erick, this is my page 
+        </p>
+        
+           
+            <h1>Pasatiempos</h1>
+            <p>I am software student in CENDI corporation, i like computers, drive, trucks, soccer, passionate for italian food, english soccer, and american trucks and bus.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos deleniti a consequatur mollitia veniam laborum officiis labore eligendi rerum tenetur sit harum esse consectetur ea eveniet, hic obcaecati voluptate ipsum. </p>
+            
+        
+   <section id="contacto">
+    <div class="formulario">
+<h2>Formulario de contacto</h2>
+<form action="#" method="post">
+   
+    <div class="campo">
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+    </div> 
+
+    <div class="campo">
+        <input type="email" name="email" id="email" placeholder="Correo Electrónico">
+    </div> 
+
+<div class="campo">
+<textarea name="Mensaje" id="Mensaje" rows="4" placeholder="Mensaje"></textarea>
+</div>
+
+<div class="campo">
+    <input type="submit" value="Enviar">
+</div>
+
+</form>
+    </div>
+
+   </section>
+    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1325089647953!2d-75.56509992418403!3d6.246263326321272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442858283e4af9%3A0xe323531db7977b0a!2s%22CENDI%22%20Corporaci%C3%B3n%20Centro%20de%20Desarrollo%20Integrado%20Instituci%C3%B3n%20de%20Educaci%C3%B3n!5e0!3m2!1ses-419!2sco!4v1746221473989!5m2!1ses-419!2sco" width="100%" height="200%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+<a href="#header" class="scroll-to-top"><i class="fas fa-arrow-up"></i></a>
+    <footer>
+    <p>Derechos de autor &copy;2025 - Tomas Patiño Hincapie</p>
+</footer>
+
+<script>src="https://code.jquery.com/jquery-3.6.0.min.js   "</script>
+<script>src="https://cdnjs.cloudflare.com/ajax/libs/Owl.Carousel2.min.js"</script>
+
+    <script>  
+    $(document).ready(function(){
+      $('owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 5
+          }
+        }
+      });
+
+      $('a.scroll-to-top').click(function(event){
+        event.preventDefault();
+      $('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 800);
+    });
+  });
+  
+  $('a.scroll-to-top').click(function(event){
+  event.preventDefault();
+$('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 800);
+});
+$('a.incio').click(function(event){
+  event.preventDefault();
+$('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 800);
+});
+$('a.contactos').click(function(event){
+  event.preventDefault();
+$('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 800);
+});
+$('a.proyecto').click(function(event){
+  event.preventDefault();
+$('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 800);
+});
+$('a.Sobre mi').click(function(event){
+  event.preventDefault();
+$('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 800);
+});
+$('a.mapa2').click(function(event){
+  event.preventDefault();
+$('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 800);
+});
+    
+  
+    </script>
+  </body>
+</html>
